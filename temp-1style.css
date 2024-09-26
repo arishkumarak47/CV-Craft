@@ -1,0 +1,98 @@
+* {
+  font-family: roboto;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+.nav-link,
+.navbar-brand
+ {
+  color: white;
+}
+.navbar,footer {
+  color: white;
+  background-color: #6e6ef9;
+}
+.resume {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  background-color: #fff;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 28px;
+  font-weight: bold;
+}
+.contact-info {
+  font-size: 14px;
+  
+}
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+.section-content {
+  margin-top: 10px;
+}
+.project-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.project-date {
+  font-size: 14px;
+  color: #666;
+}
+.project-description {
+  margin-top: 5px;
+}
+.skill-list {
+  display: grid;
+}
+.skill-list li {
+  margin: 10px;
+}
+.view-port {
+  max-width: 850px;
+  height: 500px;
+}
+
+/* input field */
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stepper div {
+  
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.stepper div.active {
+  background-color: #6e6ef9;
+  color: white;
+}
